@@ -1,0 +1,24 @@
+body {
+    margin:0;
+}
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../images/eu.jpg);
+    background-position: center;
+    background-size: cover;
+}
+img {
+    margin-right: 5px;
+
+}
+a {
+    margin-right: 5px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
