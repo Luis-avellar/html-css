@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.fundo {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #6E07D9, #9604C2);
+}
+.box {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 4px;
+    margin: auto;
+    padding: 20px;
+    top: 300px;
+    left: 820px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
+}
+.line {
+    border: none;
+    height: 40px;
+    width: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #6E07D9;
+}
+#user {
+    position: relative;
+    width: 250px;
+    outline: 0;
+    margin-bottom: 20px;
+    left: 6%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#key {
+    position: relative;
+    width: 250px;
+    outline: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    left: 6%;
+    font-family: 'Poppins';
+    border: none;
+    border-bottom: 1px solid grey;
+}
+p {
+    text-align: center;
+}
+button {
+    position: relative;
+    width: 250px;
+    height: 35px;
+    top: 10px;
+    left: 6%;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #FFF;
+    background-image: linear-gradient(to right,#6E07D9,#9604C2);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
+}
+.twitter {
+    position: relative;
+    height: 35px;
+    width: 250px;
+    margin: 20px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #3FAEF2, #4286FC);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
+}
+.twitter img {
+    height: 16px;
+    width: 16px;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+.twitter a {
+    position: absolute;
+    top: 7px;
+    left: 20%;
+    text-decoration: none;
+    color: #FFF;
+}
+.facebook img {
+    height: 16px;
+    width: 16px;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+.facebook {
+    position: relative;
+    height: 35px;
+    width: 250px;
+    margin: 20px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #00287D, #6E07D9);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
+}
+.facebook a {
+    position: absolute;
+    top: 7px;
+    left: 20%;
+    text-decoration: none;
+    color: #FFF;
+}
