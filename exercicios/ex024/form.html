@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+        }
+        fieldset {
+            border: none;
+            padding: 45px;
+        }
+        h1 {
+            text-align: center;
+        }
+        div {
+            padding: 30px;
+            background-color: rgba(169, 169, 169, 0.233);
+            border: 5px solid orangered;
+        }
+        div input[type=text], input[type=number], input[type=tel], input[type=password], input[type=email]  {
+            width: 280px;
+            height: 20px;
+            border-radius: 3px;
+            margin: 15px;
+        }
+        label {
+            padding: 20px;
+        }
+        button {
+            width: 200px;
+            height: 40px;
+            font-weight: bolder;
+            font-size: 18px;
+            background-color: aquamarine;
+            color: white;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.658);
+            border-radius: 3px;
+            border: none;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <div>
+        <form action="cadrasto.php" method="post" autocomplete="on">
+            <label for="iemail">E-mail:*
+                <input type="email" name="email" id="iemail" required autocomplete="on">
+            </label>
+            <label for="ipass">Crie uma senha:*
+                <input type="password" name="senha" id="ipass" required autocomplete="off" minlength="6">
+            </label> <br>
+            <label for="mail">Repetir e-mail:*
+                <input type="email" name="e-mail" id="mail" required autocomplete="off">
+            </label>
+            <label for="isen">Repetir a senha:*
+                <input type="password" name="senha" id="isen" required autocomplete="off" minlength="6">
+            </label> <br>
+            <fieldset>
+                <legend>Dados Cadastrais</legend>
+                <input type="checkbox" name="pfisica" id="fisica"><label for="fisica">Pessoa Física</label>
+                <input type="checkbox" name="pjuridica" id="juridica"> <label for="juridica">Pessoa Juridica</label> <br>
+                <label for="inome">Nome:*
+                    <input type="text" name="nome" id="inome" required>
+                </label>
+                <label for="icep">CEP:
+                    <input type="number" name="cep" id="icep" required minlength="8">
+                </label> <br>
+                <label for="isobre">Sobrenome:*
+                    <input type="text" name="sobrenome" id="isobre" required>
+                </label>
+                <label for="irua">Rua:
+                    <input type="text" name="rua" id="irua">
+                </label> <br>
+                <label for="igen">Gênero:
+                    <input type="radio" name="genero" id="igen"> Masculino
+                    <input type="radio" name="genero" id="igen"> Feminino
+                </label>
+                <label for="inum">Numero:
+                    <input type="number" name="numero" id="inum" maxlength="4">
+                </label> <br>
+                <label for="icpf">CPF:*
+                    <input type="text" name="cpf" id="icpf" required minlength="13" autocomplete="off">
+                </label>
+                <input type="checkbox" name="nonumero" id="nonum"><label for="nonum">Sem número</label><br>
+                <label for="itel">Telefone:*
+                    <input type="tel" name="telefone" id="itel" required minlength="9">
+                </label>
+                <label for="icom">Complemento:
+                    <input type="text" name="complemento" id="icom">
+                </label><br>
+                <label for="icel">Celular:
+                    <input type="tel" name="celular" id="icel">
+                </label>
+                <label for="iref">Referências:
+                    <input type="text" name="referencias" id="iref">
+                </label><br>
+                <label for="inas">Nascimento:*
+                    <input type="date" name="nascimento" id="inas" required>
+                </label>
+                <label for="icd">Cidade:
+                    <input type="text" name="cidade" id="icd">
+                </label><br>
+                <input type="checkbox" name="ofertas" id="iofer"><label for="iofer">Receber ofertas e novidades por e-mail</label>
+                <label for="iest">Estado:
+                    <input type="text" name="estado" id="iest">
+                </label> <br>
+                <button>Cadastrar ></button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
