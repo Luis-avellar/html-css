@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 3</title>
+</head>
+<body>
+    <h1>Formulário 3 Output</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iano">Qual sua ano do seu nascimento?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2022" oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="isom">Sua idade é:</label>
+            <output id="isom">0</output>
+        </p>
+    </form>
+    <script>
+        function calcIdade () {
+            let atual = new Date().getFullYear()
+            isom.innerHTML= Number(atual)-Number(iano.value)
+        }
+    </script>
+</body>
+</html>
