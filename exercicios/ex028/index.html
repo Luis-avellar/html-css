@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Site Exemplo</h1>
-        <span class="material-icons" onclick="clickMenu()">menu</span>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
         <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -36,6 +37,13 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
         function clickMenu() {
             if (itens.style.display == "block") {
                 itens.style.display = 'none'
