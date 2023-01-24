@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-ligth: #9298B6;
+    --primary-normal: #393D51;
+    --primary-dark: #202437;
+    --secundary--ligth: #F2766F;
+    --secundary--normal: #F1554C;
+    --secundary--dark: #C13730;
+}
+/* Topo/Menu */
+.content {
+    display: flex;
+    width: 1920px;
+    border: 1px solid blue;
+    background-color: #F4F5FC;
+}
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto 0px;
+    width: 1216px;
+    border: 1px solid #000;
+}
+.dev-boost-logo1 {
+    position: absolute;
+    width: 44px;
+    left: 394px;
+    top: 34px;
+}
+.dev-boost-logo2{
+    position: absolute;
+    width: 67px;
+    height: 16px;
+    left: 440px;
+    top: 34px;
+}
+.dev-boost-logo3{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 510px;
+    top: 46px;
+}
+.logomarca-dev {
+    width: 33px;
+    left: 352px;
+    top: 26px;
+}
+.menu-content ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+.menu-content a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--primary-normal);
+}
+.menu-fale a {
+    padding: 10px 35px;
+    border-radius: 7px;
+    color: #F4F5FC;
+    background-color: var(--secundary--normal);
+    
+}
+
+/* Layout */
+.dev-bem-vindo {
+    position: absolute;
+    width: 376px;
+    left: 351px;
+    top: 175px;
+}
+.sub-title {
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 53px;
+    color: #414246;
+}
+.dev-bem-vindo h1 {
+    font-family: 'Exo 2';
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 52px;
+    color: var(--primary-normal);
+}
+.saibamore {
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 7px;
+    color: #F4F5FC;
+    background-color: var(--secundary--normal);
+}
+.dev-bem-vindo p {
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 24px;
+}
