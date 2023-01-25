@@ -14,9 +14,9 @@
 }
 /* Topo/Menu */
 .content {
-    display: flex;
+    position: absolute;
     width: 1920px;
-    border: 1px solid blue;
+    height: 700px;
     background-color: #F4F5FC;
 }
 .menu-content {
@@ -25,7 +25,6 @@
     align-items: center;
     margin: 20px auto 0px;
     width: 1216px;
-    border: 1px solid #000;
 }
 .dev-boost-logo1 {
     position: absolute;
@@ -55,10 +54,7 @@
 .menu-content ul {
     display: flex;
     list-style: none;
-    flex-direction: row;
-    align-items: flex-start;
     gap: 10px;
-    
 }
 .menu-content a {
     text-decoration: none;
@@ -73,7 +69,6 @@
     border-radius: 7px;
     color: #F4F5FC;
     background-color: var(--secundary--normal);
-    
 }
 
 /* Layout */
@@ -99,15 +94,107 @@
     line-height: 52px;
     color: var(--primary-normal);
 }
-.saibamore {
+.link-play {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Inter';
+    color: var(--primary-normal);
+}
+.learn-more {
+    font-family: 'Inter';
+    margin-right: 25px;
+    line-height: 24px;
     text-decoration: none;
     padding: 10px 35px;
     border-radius: 7px;
     color: #F4F5FC;
     background-color: var(--secundary--normal);
 }
-.dev-bem-vindo p {
+.text1 {
     font-family: 'Inter';
     font-weight: 400;
     line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
+span {
+    color: var(--secundary--normal);
+}
+.arrow-play {
+    display: inline;
+    border-radius: 50%;
+    padding: 12px 13px 12px 15px;
+    background-color: var(--primary-normal);
+}
+.arrow-play img {
+    margin: auto;
+}
+.challenge {
+    position:absolute;
+    width: 521px;
+    height: 501px;
+    top: 153px;
+    left: 916px;
+}
+.retangulo-laranja {
+    position: relative;
+    width: 348px;
+    height: 428px;
+    left: 152px;
+    top: 25px;
+    border-radius: 22px;
+    background: var(--secundary--normal);
+}
+.retangulo-foto {
+    position: absolute;
+    width: 348px;
+    height: 428px;
+    left: 181px;
+    top: 5px;
+    border-radius: 15px;
+    background: url(./imagens/rapaz.png);
+    background-blend-mode: overlay, normal, normal;
+}
+.line {
+    position: absolute;
+    top: 333px;
+}
+.box-challenge {
+    position: absolute;
+    top: 81px;
+    left: 25px;
+    box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.03);
+    background-color: #FFF;
+    width: 216px;
+    height: 67px;
+    border-radius: 10px;
+}
+.paraf-1 {
+    position: absolute;
+    top: 21%;
+    left: 39%;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--primary-normal);
+}
+.paraf-2 {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.area-thunder {
+    position: absolute;
+    top: 17%;
+    left: 15%;
+    border-radius: 50%;
+    padding: 8px 11px 8px 12px;
+    background-color: var(--secundary--normal);
+}
+
