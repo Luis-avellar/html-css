@@ -13,24 +13,34 @@
     --font-title: 'Exo 2', sans-serif;
     --font-body: 'Inter', sans-serif;
 }
-
-.content {
-    display: flex;
-    width: 1920px;
-    background-color: #EBEBEB;
-}
 /*Header*/
-.head {
+.content-head {
     display: flex;
     width: 1218px;
-    margin: auto;
+    margin: 20px auto 33px auto;
     align-items: center;
     justify-content: center;
-    border: 1px solid #3420B6;
 }
 .logo {
-    order: 0;
-    border: 1px solid red;
+    flex: 1;
+}
+.logo-boost {
+    position: absolute;
+    top: 33px;
+    left: 388px;
+}
+.logo-boost2 {
+    position: absolute;
+    top: 33px;
+    left: 431px;
+}
+.logo-boost3 {
+    position: absolute;
+    top: 44px;
+    left: 495px;
+}
+.menu-top {
+    flex: 3;
 }
 .menu-top ul {
     display: inline-flex;
@@ -40,20 +50,31 @@
     line-height: 24px;
     color: var(--primary-light);
     list-style: none;
-    border: 1px solid green;
 }
 .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100px;
     height: 40px;
-    background-color: black;
+    font-size: 18px;
 }
 .link {
-    padding: 10px 25px 10px 54px;
+    position: relative;
+    width: 116px;
+    padding: 7px 7px 7px 19px;
+    height: 40px;
     border-radius: 24px;
     background-color: var(--secundary-normal);
+    color: #FFF;
+    font-size: 24px;
 }
 .link a {
+    position: absolute;
+    top: 10px;
+    left: 55px;
     font-family: var(--font-body);
     text-decoration: none;
+    font-size: 16px;
     color: #FFF;
 }
