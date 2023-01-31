@@ -78,3 +78,65 @@
     font-size: 16px;
     color: #FFF;
 }
+/*Layout*/
+.content-layout {
+    display: flex;
+    width: 1216px;
+    height: 331px;
+    margin: 33px auto 35px auto;
+    padding: 57px 115px 194px 115px;
+    background-color: var(--primary-dark);
+    border-radius: 10px;
+}
+.conteudo {
+    position:relative;
+    z-index: 1;
+    color: #FFF;
+}
+.conteudo h1 {
+    width: 252px;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 9px;
+}
+.conteudo p {
+    width: 384px;
+    height: 79px;
+    margin-bottom: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+span {
+    color: var(--secundary-normal);
+}
+.conteudo a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFF;
+    border-radius: 34px;
+    background-color: var(--secundary-normal);
+    padding: 7px 35px;
+}
+.vector-blue {
+    position: absolute;
+    left: 1067px;
+    top: 93px;
+    z-index: 2;
+}
+.vector-blue img {
+    border-radius: 10px;
+}
+.airplane {
+    position: absolute;
+    left: 1113px;
+    top: 64px;
+    z-index: 3;
+}
