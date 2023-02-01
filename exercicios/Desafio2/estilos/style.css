@@ -51,6 +51,10 @@
     color: var(--primary-light);
     list-style: none;
 }
+.menu-top a {
+    text-decoration: none;
+    color: var(--primary-light);
+}
 .icons {
     display: flex;
     justify-content: space-around;
@@ -139,4 +143,71 @@ span {
     left: 1113px;
     top: 64px;
     z-index: 3;
+}
+/* Aside */
+.perfil {
+    display: flex;
+    flex-direction: column;
+    margin: 35px 1184px 97px 352px;
+    width: 384px;
+    height: 408px;
+    border-radius: 8px;
+    border: 1px solid #EBEBEB;
+    text-align: center;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+    color: var(--primary-dark);
+    margin: 24px 269px 5px 36px;
+}
+.retrato {
+    align-self: center;
+}
+.retrato h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.retrato p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #828282;
+}
+.numbers {
+    width: 334px;
+    height: 68px;
+    align-self: center;
+    border-radius: 6px;
+    border: 1px solid #EBEBEB;
+    display: inline-flex;
+    justify-content: center;
+}
+.numbers p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #828282;
+}
+.numbers h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.numbers h3:hover {
+    color: var(--secundary-normal);
+}
+.posts, .favorite, .score {
+    padding: 10px;
+    align-self: center;
+}
+.posts:hover, .favorite:hover, .score:hover {
+    border-radius: 3px;
+    border-top: 3px solid var(--secundary-normal);
 }
