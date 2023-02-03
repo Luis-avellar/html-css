@@ -131,7 +131,7 @@ span {
 }
 .vector-blue {
     position: absolute;
-    left: 1067px;
+    left: 1060px;
     top: 93px;
     z-index: 2;
 }
@@ -144,11 +144,14 @@ span {
     top: 64px;
     z-index: 3;
 }
-/* Aside */
-.perfil {
+/* Right Aside */
+.content {
+    display: flex;
+}
+.right-content {
     display: flex;
     flex-direction: column;
-    margin: 35px 1184px 97px 352px;
+    margin: 35px 14px 97px 352px;
     width: 384px;
     height: 408px;
     border-radius: 8px;
@@ -210,4 +213,97 @@ span {
 .posts:hover, .favorite:hover, .score:hover {
     border-radius: 3px;
     border-top: 3px solid var(--secundary-normal);
+}
+/* Left-Aside */
+.left-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 408px;
+    margin: 35px 35px 97px 18px;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+}
+.left-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    color: var(--primary-normal);
+    margin: 35px 546px 0px 32px;
+}
+.box-master {
+    display: flex;
+}
+.box-content {
+    width: 235px;
+    height: 301px;
+    margin: 14px 2px 33px 23px; 
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    text-align: center;
+}
+.box-content2 {
+    width: 235px;
+    height: 301px;
+    margin: 14px 2px 33px 23px; 
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    text-align: center;
+}
+.box-content3 {
+    width: 235px;
+    height: 301px;
+    margin: 14px 2px 33px 23px; 
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    text-align: center;
+}
+.tumbnail  {
+    width: 235px;
+    height: 130px;
+    background: no-repeat url(../images/astronauta.png) center/cover; 
+    margin-bottom: 17px;
+}
+.tumbnail2 {
+    width: 235px;
+    height: 130px;
+    background: no-repeat url(../images/astronauta-revoltado.png) center/cover; 
+    margin-bottom: 17px;
+}
+.tumbnail3 {
+    width: 235px;
+    height: 130px;
+    background: no-repeat url(../images/foguete.png) center/cover; 
+    margin-bottom: 17px;
+}
+.categoria {
+    margin:1px 103px 9px 10px;
+}
+.categoria a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 600;
+    color: var(--secundary-normal);
+    text-decoration: none;
+    background-color: var(--secundary-light);
+    padding: 9px 14px;
+    border-radius: 37px;
+}
+.pequeno-paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: var(--primary-normal);
+    text-align: justify;
+    margin: 10px 18px 6px 24px;
+}
+.author {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #696C85;
 }
