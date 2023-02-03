@@ -147,6 +147,8 @@ span {
 /* Right Aside */
 .content {
     display: flex;
+    justify-content: left;
+    align-items: center;
 }
 .right-content {
     display: flex;
@@ -298,9 +300,10 @@ span {
     line-height: 19px;
     color: var(--primary-normal);
     text-align: justify;
-    margin: 10px 18px 6px 24px;
+    margin: 17px 18px 6px 24px;
 }
 .author {
+    margin-top: 8px;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     font-weight: 400;
