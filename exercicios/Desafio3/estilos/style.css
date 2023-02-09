@@ -1,0 +1,90 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --ubuntu-text: 'Ubuntu', sans-serif;
+    --inter-text: 'Inter', sans-serif;
+    --primary-ligth: #B01BE3;
+    --primary-normal: #9907CC;
+    --primary-dark: #72009A;
+    --secundary-ligth: #040926;
+    --secundary-dark: #000106;
+}
+.content {
+    position: absolute;
+    width: 1920px;
+    height: 668px;
+    background: linear-gradient(180deg, #040926 -6.13%, rgba(153, 7, 204, 0.24) 124.8%);
+}
+.menu-top {
+    display: flex;
+    margin: 22px 346px 623px 351px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-left {
+    position: relative;
+}
+.vector2 {
+    position: absolute;
+    top: 10px;
+    left: 38px;
+}
+.vector3 {
+    position: absolute;
+    top: 10px;
+    left: 81px;
+}
+.vector4 {
+    position: absolute;
+    top: 21px;
+    left: 145px;
+}
+.menu-rigth {
+    display: flex;
+    width: 629px;
+    height: 43px;
+}
+.menu-opcoes {
+    margin-right: 35px;
+}
+li:hover {
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--primary-normal);
+}
+.menu-opcoes ul {
+    display: inline-flex;
+    font-family: var(--inter-text);
+    margin: 10px 4px 11px;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    list-style: none;
+    color: white;
+    gap: 31px;
+    flex-grow: 0;
+}
+.languague {
+    margin: 8px 24px auto auto;
+    flex-grow: 0;
+}
+i {
+    color: #FFF;
+    font-size: 18px;
+}
+.fale-conosco {
+    background-color: var(--primary-normal);
+    padding: 10px 34px;
+    border-radius: 38px;
+    flex-grow: 0;
+}
+.fale-conosco a {
+    font-family: var(--inter-text);
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;
+}
