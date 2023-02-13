@@ -13,18 +13,20 @@
     --secundary-dark: #000106;
 }
 .content {
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
     width: 1920px;
     height: 668px;
     background: linear-gradient(180deg, #040926 -6.13%, rgba(153, 7, 204, 0.24) 124.8%);
 }
 .menu-top {
     display: flex;
-    margin: 22px 346px 623px 351px;
     justify-content: space-between;
+    margin: 22px 346px 100px 351px;
     align-items: center;
 }
 .menu-left {
+    padding-right: 420px;
     position: relative;
 }
 .vector2 {
@@ -55,7 +57,7 @@ li:hover {
     border-bottom: 3px solid var(--primary-normal);
 }
 .menu-opcoes ul {
-    display: inline-flex;
+    display: flex;
     font-family: var(--inter-text);
     margin: 10px 4px 11px;
     font-size: 15px;
@@ -87,4 +89,99 @@ i {
     font-size: 15px;
     color: #FFF;
     text-decoration: none;
+}
+/* LAYOUT */
+.content-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 379px 20px 351px;
+    justify-content: space-between;
+    width: 1920px;
+    height: 460px;
+}
+.left-side {
+    width: 448px;
+    justify-content: flex-start;
+ 
+}
+.title {
+    width: 448px;
+    height: 111px;
+    font-family: var(--ubuntu-text);
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+}
+span {
+    color: var(--primary-normal);
+}
+.subject {
+    width: 384px;
+    height: 179px;
+    font-family: var(--inter-text);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+    color: #FFF;
+}
+.link-learnMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 34px;
+    width: 145px;
+    height: 42px;
+    background-color: var(--primary-normal);
+    border-radius: 38px;
+}
+.link-learnMore a {
+    text-decoration: none;
+    color: #FFF;
+}
+.rigth-side {
+    display: flex;
+    position: relative;
+    width: 660px;
+    height: 460px;
+}
+.box-line {
+    position: absolute;
+    left: 12px;
+    top: 236px;
+    z-index: 0;
+}
+.man-with-tablet {
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    transform: translateY(-17%);
+    z-index: 1;
+}
+.bar-percent {
+    position:absolute;
+    left: 11px;
+    top: 42px;
+    transform: translateX(-40%);
+    z-index: 2;
+}
+.box-white {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.box-white p {
+    display: inline;
+    font-family: var(--inter-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFF;
+    margin: 10px 18px 6px 13px;
+}
+.box-white img {
+    display: block;
+    margin: 10px 15px 5px 19px;
+}
+.icons-info i {
+    padding: 14px 12px 10px 28px;
 }
