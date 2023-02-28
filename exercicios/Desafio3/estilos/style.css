@@ -378,3 +378,85 @@ iframe {
     border-radius: 8px;
     z-index: 1;
 }
+
+/* SECTION DEPOIMENTOS */
+
+.depoimentos {
+    background: var(--secundary-ligth);
+    width: 100%;
+    height: 525px;
+    color: #FFF;
+}
+.content-dep {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1107px;
+    height: 425px;
+}
+.dep-header {
+    text-align: center;
+    margin: 26px 354px 57px;
+}
+.dep-header p {
+    font-family: var(--inter-text);
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--primary-normal);
+    line-height: 20px;
+}
+.dep-header h2 {
+    font-family: var(--ubuntu-text);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.dep-right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 488px;
+    height: 112px;
+}
+.dep-right p {
+    margin-top: 7px;
+    font-family: var(--inter-text);
+    font-weight: 400;
+    line-height: 29px;
+}
+.profile-dep {
+    display: flex;
+    gap: 10px;
+    margin: 4px 0px 15px 0px;
+}
+.profile-dep img {
+    align-self: center;
+    width: 45px;
+    height: 45px;
+}
+.nome-homem {
+    font-family: var(--ubuntu-text);
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--primary-normal);
+}
+.cargo-homem {
+    font-family: var(--inter-text);
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFF;
+}
+.dep-left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 488px;
+    height: 112px;
+}
+.dep-left p {
+    margin-top: 7px;
+    font-family: var(--inter-text);
+    font-weight: 400;
+    line-height: 29px;
+}
