@@ -93,15 +93,13 @@ i {
 /* LAYOUT */
 .content-layout {
     display: flex;
-    flex-wrap: wrap;
     margin: 12px 379px 20px 351px;
     justify-content: space-between;
-    width: 1920px;
+    width: 100%;
     height: 460px;
 }
 .left-side {
     width: 448px;
-    justify-content: flex-start;
 }
 .title {
     width: 430px;
@@ -145,25 +143,25 @@ span {
 .rigth-side {
     display: flex;
     position: relative;
-    width: 660px;
+    width: 740px;
     height: 460px;
 }
 .box-line {
     position: absolute;
-    left: 12px;
+    left: 202px;
     top: 236px;
     z-index: 0;
 }
 .man-with-tablet {
     position: absolute;
-    left: 15px;
+    left: 205px;
     top: 18px;
     transform: translateY(-17%);
     z-index: 1;
 }
 .bar-percent {
     position:absolute;
-    left: 11px;
+    left: 151px;
     top: 42px;
     transform: translateX(-40%);
     z-index: 2;
@@ -192,7 +190,7 @@ span {
 }
 .other-bar-percent {
     position:absolute;
-    left: 360px;
+    left: 520px;
     top: 253px;
     z-index: 2;
 }
@@ -459,4 +457,87 @@ iframe {
     font-family: var(--inter-text);
     font-weight: 400;
     line-height: 29px;
+}
+/* RODAPÉ */
+
+.rodape-adress {
+    background: linear-gradient(180deg, #040926 -13.13%, rgba(151, 7, 204, 0.829) 107.73%);
+    width: 100%;
+    height: 345px;
+}
+.adress-dev {
+    display: flex;
+    width: 100%;
+    height: 297px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dev-logo-boost-dot {
+    margin-right: 20px;
+}
+.midias-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 200px;
+}
+.instagram, .face, .linkedin, .youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-right: 10px;
+}
+.onde-estamos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.onde-estamos img {
+    margin-right: 10px;
+}
+.dev-localizacao {
+    font-family: var(--inter-text);
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFF;
+}
+.shield-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.shield-text img {
+    margin-right: 10px;
+}
+.lgpd {
+    font-family: var(--inter-text);
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFF;
+}
+.logos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+}
+.line {
+    display: flex;
+}
+.ano-atual {
+    display: flex;
+    justify-content: flex-start;
 }
