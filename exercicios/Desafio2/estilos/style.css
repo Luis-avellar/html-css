@@ -14,299 +14,123 @@
     --font-body: 'Inter', sans-serif;
 }
 /*Header*/
-.content-head {
+.menu-pesquisa {
     display: flex;
-    width: 1218px;
-    margin: 20px auto 33px auto;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
 }
-.logo {
-    flex: 1;
+.logo-empresa {
+    display: flex;
+    position: relative;
 }
-.logo-boost {
+.sobre-img1 {
     position: absolute;
-    top: 33px;
-    left: 388px;
+    top: 8px;
+    left: 35px;
 }
-.logo-boost2 {
+.sobre-img2{
     position: absolute;
-    top: 33px;
-    left: 431px;
+    top: 8px;
+    left: 78px;
 }
-.logo-boost3 {
+.sobre-img3 {
     position: absolute;
-    top: 44px;
-    left: 495px;
+    top: 11px;
+    left: 142px;
 }
-.menu-top {
-    flex: 3;
-}
-.menu-top ul {
-    display: inline-flex;
-    gap: 10px;
-    font-family: var(--font-body);
-    font-weight: 400;
-    line-height: 24px;
-    color: var(--primary-light);
+.menu-navegacao ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
     list-style: none;
 }
-.menu-top a {
-    text-decoration: none;
-    color: var(--primary-light);
-}
-.icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100px;
-    height: 40px;
-    font-size: 18px;
-}
-.link {
-    position: relative;
-    width: 116px;
-    padding: 7px 7px 7px 19px;
-    height: 40px;
-    border-radius: 24px;
-    background-color: var(--secundary-normal);
-    color: #FFF;
-    font-size: 24px;
-}
-.link a {
-    position: absolute;
-    top: 10px;
-    left: 55px;
-    font-family: var(--font-body);
-    text-decoration: none;
-    font-size: 16px;
-    color: #FFF;
-}
-/*Layout*/
-.content-layout {
-    display: flex;
-    width: 1216px;
-    height: 331px;
-    margin: 33px auto 35px auto;
-    padding: 57px 115px 194px 115px;
-    background-color: var(--primary-dark);
-    border-radius: 10px;
-}
-.conteudo {
-    position:relative;
-    z-index: 1;
-    color: #FFF;
-}
-.conteudo h1 {
-    width: 252px;
-    height: 80px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 40px;
-    margin-bottom: 9px;
-}
-.conteudo p {
-    width: 384px;
-    height: 79px;
-    margin-bottom: 18px;
+.menu-navegacao li a {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: justify;
+    line-height: 1.5em;
+    color: #696C85;
+    text-decoration: none;
+}
+.menu-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img-plus {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--secundary-normal);
+    max-width: 116px;
+    border-radius: 24px;
+}
+.img-plus img {
+    margin: 11px 5px 11px 21px;
+}
+.img-plus a {
+    margin-right: 21px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+}
+/* PRIMEIRA SESSÃO - BANNER */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--primary-normal);
+    border-radius: 10px;
+    padding: 52px;
+}
+.informacao {
+    max-width: 385px;
+    color: #FFF;
 }
 span {
     color: var(--secundary-normal);
 }
-.conteudo a {
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    color: #FFF;
-    border-radius: 34px;
-    background-color: var(--secundary-normal);
-    padding: 7px 35px;
+.informacao h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    line-height: 40px;
+    max-width: 252px;
 }
-.vector-blue {
+.informacao p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.825em;
+    line-height: 1.5em;
+    margin: 9px 0 20px;
+}
+.informacao a {
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    background: var(--secundary-normal);
+    padding: 7px 35px;
+    border-radius: 34px;
+}
+.foguete {
     position: absolute;
-    left: 1060px;
-    top: 93px;
+    left: 750px;
+    top: -28px;
     z-index: 2;
 }
-.vector-blue img {
-    border-radius: 10px;
-}
-.airplane {
+.background-azul {
     position: absolute;
-    left: 1113px;
-    top: 64px;
-    z-index: 3;
+    left: 698px;
+    top: 0px;
+    z-index: 1;
 }
-/* Right Aside */
-.content {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-.right-content {
-    display: flex;
-    flex-direction: column;
-    margin: 35px 14px 97px 352px;
-    width: 384px;
-    height: 408px;
-    border-radius: 8px;
-    border: 1px solid #EBEBEB;
-    text-align: center;
-}
-.title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 40px;
-    color: var(--primary-dark);
-    margin: 24px 269px 5px 36px;
-}
-.retrato {
-    align-self: center;
-}
-.retrato h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 40px;
-}
-.retrato p {
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 40px;
-    color: #828282;
-}
-.numbers {
-    width: 334px;
-    height: 68px;
-    align-self: center;
-    border-radius: 6px;
-    border: 1px solid #EBEBEB;
-    display: inline-flex;
-    justify-content: center;
-}
-.numbers p {
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: #828282;
-}
-.numbers h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-}
-.numbers h3:hover {
-    color: var(--secundary-normal);
-}
-.posts, .favorite, .score {
-    padding: 10px;
-    align-self: center;
-}
-.posts:hover, .favorite:hover, .score:hover {
-    border-radius: 3px;
-    border-top: 3px solid var(--secundary-normal);
-}
-/* Left-Aside */
-.left-content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-    height: 408px;
-    margin: 35px 35px 97px 18px;
-    border: 1px solid #EBEBEB;
-    border-radius: 8px;
-}
-.left-content h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 40px;
-    color: var(--primary-normal);
-    margin: 35px 546px 0px 32px;
-}
-.box-master {
-    display: flex;
-}
-.box-content {
-    width: 235px;
-    height: 301px;
-    margin: 14px 2px 33px 23px; 
-    border: 1px solid #EBEBEB;
-    border-radius: 8px;
-    text-align: center;
-}
-.box-content2 {
-    width: 235px;
-    height: 301px;
-    margin: 14px 2px 33px 23px; 
-    border: 1px solid #EBEBEB;
-    border-radius: 8px;
-    text-align: center;
-}
-.box-content3 {
-    width: 235px;
-    height: 301px;
-    margin: 14px 2px 33px 23px; 
-    border: 1px solid #EBEBEB;
-    border-radius: 8px;
-    text-align: center;
-}
-.tumbnail  {
-    width: 235px;
-    height: 130px;
-    background: no-repeat url(../images/astronauta.png) center/cover; 
-    margin-bottom: 17px;
-}
-.tumbnail2 {
-    width: 235px;
-    height: 130px;
-    background: no-repeat url(../images/astronauta-revoltado.png) center/cover; 
-    margin-bottom: 17px;
-}
-.tumbnail3 {
-    width: 235px;
-    height: 130px;
-    background: no-repeat url(../images/foguete.png) center/cover; 
-    margin-bottom: 17px;
-}
-.categoria {
-    margin:1px 103px 9px 10px;
-}
-.categoria a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    line-height: 15px;
-    font-weight: 600;
-    color: var(--secundary-normal);
-    text-decoration: none;
-    background-color: var(--secundary-light);
-    padding: 9px 14px;
-    border-radius: 37px;
-}
-.pequeno-paragrafo {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 19px;
-    color: var(--primary-normal);
-    text-align: justify;
-    margin: 17px 18px 6px 24px;
-}
-.author {
-    margin-top: 8px;
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 23px;
-    color: #696C85;
+.background-azul img {
+    border-radius: 10px;
 }
