@@ -138,7 +138,12 @@ span {
 /* SECTION INFO */
 
 .info {
-    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0px;
 }
 .perfil {
     display: flex;
@@ -199,4 +204,59 @@ span {
     line-height: 2.5em;
     color: #828282;
     text-align: center;
+}
+
+.ultimas-postagens {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    gap: 15px;
+}
+.reportagem a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.825em;
+    line-height: 15px;
+    text-align: center;
+    padding: 9px 14px;
+    margin: 17px 103px 9px 20px;
+    text-decoration: none;
+    background: #5138EE;
+    color: #FFF;
+    border-radius: 24px;
+}
+.paragraph-postagens{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.375em;
+    color: #0A071B;
+    line-height: 40px;
+}
+.posts {
+    margin: 5px 300px 15px 32px;
+}
+.reportagem {
+    max-width: 235px;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+}
+.reportagem img {
+    margin-bottom: 20px;
+}
+.lorem {
+    margin: 15px 18px 6px 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.900em;
+    line-height: 23px;
+}
+.criador {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.825em;
+    line-height: 23px;
+    color: #696C85;
+    margin: 0px 53px 15px 24px;
 }
