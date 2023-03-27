@@ -195,7 +195,10 @@ span {
     font-weight: 700;
     color: #0A071B;
 }
-.numeros:hover {
+.postagens:hover {
+    border-top: 5px solid #5138EE;
+    border-radius: 5px;
+    cursor: pointer;
     color: #5138EE;
 }
 .title-2 {
