@@ -1,0 +1,25 @@
+a {
+  color: rgb(0, 113, 133);
+  cursor: pointer;
+  font-size: 21px;
+}
+.paragraph {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.btn-add-to-cart {
+  padding: 8px 29px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(255, 2106, 20);
+  font-size: 17px;
+  cursor: pointer;
+}
+.btn-buy-now {
+  padding: 8px 29px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  background-color: rgb(255, 164, 28);
+  cursor: pointer;
+}
