@@ -1,0 +1,58 @@
+#searchID {
+  width: 180px;
+  padding: 12px 8px;
+  border: 1px solid #c3c3c3;
+  border-radius: 4px;
+  font-size: 19px;
+}
+#googleSearch {
+  width: 500px;
+  padding: 15px 15px;
+  border-radius: 25px;
+  border: none;
+  font-size: 19px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+form > label {
+  display: block;
+}
+#emailID {
+  margin: 3px 0px 8px;
+  padding: 8px 115px;
+  border-radius: 4px;
+}
+.paragraph {
+  font-size: 18px;
+  color: #5e5c5ccc;
+}
+.btn-submit {
+  padding: 15px 100px;
+  border-radius: 25px;
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+  background-color:rgb(38, 102, 219);
+  font-size: 17px;
+}
+.cla {
+  width: 100px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+#happeningBox {
+  font-size: 18px;
+  width: 300px;
+  vertical-align: middle;
+  border: none;
+  margin: 0px 10px;
+}
+.btn-tweet {
+  padding: 10px 20px;
+  background-color:rgb(38, 102, 219);
+  color: #FFF;
+  font-size: 19px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  vertical-align: middle;
+}
