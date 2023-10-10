@@ -1,0 +1,10 @@
+.thumbnail {
+  width: 600px;
+}
+.search-bar {
+  display: block;
+  font-size: 20px;
+}
+.video-preview {
+  display: inline-block;
+}
