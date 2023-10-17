@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Exercise</title>
+  <style>
+    .layout-tweet {
+      width: 620px;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.15);
+    }
+    .layout-tweet > img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+    .paragraph {
+      display: inline-block;
+      font-size: 24px;
+      margin-left: 15px;
+      margin-right: 65px;
+      color: grey;
+    }
+    .btn-tweet {
+      background-color: rgba(21, 144, 245, 0.884);
+      color: #fff;
+      border: none;
+      font-size: 24px;
+      text-transform: capitalize;
+      padding: 10px 29px;
+      border-radius: 50px;
+      margin-left: 95px;
+      cursor: pointer;
+    }
+    .card-layout {
+      display: inline-block;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 25px;
+      margin-right: 20px;
+      width: 180px;
+      height: 300px;
+      box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.15);
+      border-radius: 3px;
+    }
+    .card-layout > img {
+      width: 180px;
+      height: 170px;
+      object-fit: cover;
+    }
+    .paragraph-Name {
+      font-weight: bolder;
+      text-transform: capitalize;
+      font-size: 19px;
+      margin: 15px 7px 4px 7px;
+    }
+    .paragraph-Friends {
+      margin: 0px 7px 30px 7px;
+      color: grey;
+    }
+    .card-layout > a {
+      text-decoration: none;
+      color: #fff;
+      background-color: rgba(21, 144, 245, 0.884);
+      text-transform: capitalize;
+      padding: 10px; 
+      margin-left: 12px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="layout-tweet">
+    <img src="./1151509.jpg" alt="uma imagem">
+    <p class="paragraph">
+      What's happening?
+    </p>
+    <button type="submit" class="btn-tweet">
+      tweet
+    </button>
+  </div>
+
+  <div class="card-layout">
+    <img src="./1151509.jpg" alt="uma imagem">
+    <p class="paragraph-Name">
+      oliver
+    </p>
+    <p class="paragraph-Friends">
+      2 mutual friends
+    </p>
+    <a href="#">
+      add friend
+    </a>
+  </div>
+  <div class="card-layout">
+    <img src="./images.jfif" alt="uma imagem">
+    <p class="paragraph-Name">
+      mimi
+    </p>
+    <p class="paragraph-Friends">
+      4 mutual friends
+    </p>
+    <a href="#">
+      add friend
+    </a>
+  </div>
+  <div class="card-layout">
+    <img src="./tumblr_06dfe818bbf998ebfc03a9c444eb9195_2f70cf54_540.jpg" alt="uma imagem">
+    <p class="paragraph-Name">
+      rex
+    </p>
+    <p class="paragraph-Friends">
+      6 mutual friends
+    </p>
+    <a href="#">
+      add friend
+    </a>
+  </div>
+</body>
+</html>
