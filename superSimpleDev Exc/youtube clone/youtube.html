@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Youtube Clone</title>
 </head>
@@ -10,28 +14,47 @@
   <input class="search-bar" type="text" name="search-bar" id="search-id" placeholder="Search">
   
   <div class="video-preview">
-    <img class="thumbnail" src="thumbnalis/thumbnail-1.webp" alt="two men">
-    <p class="video-title">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">
-      Marques Brownlee
-    </p>
-    <p class="video-stats">
-      3.4M views &#183; 6 months ago
-    </p>
+    <div class="video-thumbnail">
+      <img class="thumbnail" src="thumbnalis/thumbnail-1.webp" alt="two men">
+    </div>
+    <div class="video-status">
+      <div class="channel-picture">
+        <img class="profile-picture" src="./thumbnalis/channel-1.jpeg" 
+          alt="imagem de perfil">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="video-author">
+          Marques Brownlee
+        </p>
+        <p class="video-stats">
+          3.4M views &#183; 6 months ago
+        </p>
+      </div>
+    </div>
   </div>
   <div class="video-preview">
-    <img class="thumbnail" src="thumbnalis/thumbnail-2.webp" alt="two men">
-    <p class="video-title">
-      Try Not To Laugh Challenge #9
-    </p>
-    <p class="video-author">
-      Markiplier
-    </p>
-    <p class="video-stats">
-      19M views &#183; 4 years ago
-    </p>
+    <div class="video-thumbnail">
+      <img class="thumbnail" src="thumbnalis/thumbnail-2.webp" alt="two men">
+    </div>
+    <div class="video-status">
+      <div class="channel-picture">
+        <img class="profile-picture" src="./thumbnalis/channel-2.jpeg" alt="rotinho">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Try Not To Laugh Challenge #9
+        </p>
+        <p class="video-author">
+          Markiplier
+        </p>
+        <p class="video-stats">
+          19M views &#183; 4 years ago
+        </p>
+      </div>
+    </div>
   </div>
 </body>
 </html>

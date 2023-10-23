@@ -1,10 +1,45 @@
 .thumbnail {
   width: 600px;
 }
+p {
+  font-family: 'Roboto', Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .search-bar {
   display: block;
   font-size: 20px;
 }
 .video-preview {
+  display: inline-block;
+}
+.video-thumbnail {
+  margin-bottom: 12px;
+}
+.video-author, 
+.video-stats {
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+}
+.video-title {
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.video-author {
+  margin-bottom: 4px;
+}
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.profile-picture{
+  width: 100%;
+  border-radius: 50%;
+}
+.video-info {
   display: inline-block;
 }
